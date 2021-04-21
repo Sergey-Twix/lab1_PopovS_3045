@@ -11,7 +11,7 @@ int main()
   if (difference < 0)
     difference *= -1;
   if (difference > precision)
-    return 101;
+    return 1;
 
    x=48;
    res = (sin(x));
@@ -22,7 +22,7 @@ int main()
   if (difference < 0)
     difference *= -1;
   if (difference > precision)
-    return 102;
+    return 2;
 
    x=400;
    res = (sin(x));
@@ -44,7 +44,7 @@ int main()
   if (difference < 0)
     difference *= -1;
   if (difference > precision)
-    return 3;
+    return 4;
 
   x= -45;
   res = (sin(x));
